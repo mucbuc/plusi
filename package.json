@@ -1,6 +1,6 @@
 {
   "name": "plusi",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "module helper",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "runjs": "^4.3.0",
     "tape": "*",
     "yargs": "*",
-    "mkdirp": "*"
+    "mkdirp": "*",
+    "tmp": "*"
   },
   "bin": {
     "plusi": "index.js"
