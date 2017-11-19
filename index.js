@@ -15,7 +15,7 @@ let run = require( 'runjs' ).run
 
 			mkdirp( destDir, (err) => {
 
-				run( 'ln -s . ' + path.join('test/lib/', path.basename(__dirname) ) );
+				run( 'ln -s ../.. ' + path.join('test/lib/', path.basename(__dirname) ) );
 
 				paths.forEach( (dir) => {
 					const destSubDir = path.join( destDir, dir );
