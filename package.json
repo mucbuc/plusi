@@ -1,6 +1,6 @@
 {
   "name": "plusi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "module helper",
   "main": "index.js",
   "scripts": {
