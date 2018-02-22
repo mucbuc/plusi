@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+"use strict";
+
 const destDir = 'test/lib'
   , nodeModules = 'node_modules';
 
